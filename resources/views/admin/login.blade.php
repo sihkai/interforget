@@ -13,7 +13,7 @@
                 <td>　 <input onkeyup="value=value.replace(/[\W]/g,'') "
                              　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"
                              　　 ID="Text1" NAME="account" required="required"></td></tr>
-            <tr><td align=right>密碼:</td>
+            <tr><td align=right>密碼123:</td>
                 <td>　 <input onkeyup="value=value.replace(/[\W]/g,'') "
                              　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"
                              　　 id="text1" name="password" required="required" type="password"></td></tr>
