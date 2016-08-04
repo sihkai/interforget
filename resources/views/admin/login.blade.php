@@ -9,7 +9,7 @@
         <input type="hidden" name ='id'>
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <table border="7" >
-            <tr><td aign=right>登入名稱:</td>
+            <tr><td aign=right>登入名稱/td>
                 <td>　 <input onkeyup="value=value.replace(/[\W]/g,'') "
                              　　 onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"
                              　　 ID="Text1" NAME="account" required="required"></td></tr>
